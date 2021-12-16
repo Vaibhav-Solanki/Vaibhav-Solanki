@@ -126,12 +126,13 @@ main{
 }
 .slider{
     background-size: 100% 100%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     width: 100%;
     height: 65vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-position: center;
 }
 
 
@@ -147,14 +148,21 @@ main{
 }
 .card{
     border-radius: 10px;
-    background-size: cover; 
-    background-repeat:no-repeat;
-    background-position: bottom;
+}
+.card:hover{
+    transform: scale(1.1);
+    filter:saturate(150%)
+}
+.card>img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 #main-coro{
     display: grid;
     width: 85%;
-    grid-template-rows: 250px 250px;
+    grid-auto-rows: auto;
+    /* grid-template-rows: 250px 250px; */
      grid-template-areas: "a a b b c c"
                           "d d e e e e";
     grid-gap: 20px;
@@ -162,23 +170,18 @@ main{
 }
 .card-1{
     grid-area: a;
-    background-image: url(https://cdn.shopify.com/s/files/1/0390/2985/files/HP-Mobile_skin_Tiles_400-525_400x.jpg?v=1638940647);
 }
 .card-2{
     grid-area: b;
-    background-image: url(https://cdn.shopify.com/s/files/1/0390/2985/files/HP-Mobile_makeup_Tiles_400-525_400x.jpg?v=1638940576);
 }
 .card-3{
     grid-area: c;
-    background-image: url(https://cdn.shopify.com/s/files/1/0390/2985/files/HP-Mobile_Hair_Tiles_400-525_400x.jpg?v=1638940499);
 }
 .card-4{
     grid-area: d;
-    background-image: url(https://cdn.shopify.com/s/files/1/0390/2985/files/HP-Mobile_bath-_-body_Tiles_400-525_400x.jpg?v=1638940390);
 }
 .card-5{
     grid-area: e;
-    background-image: url(https://cdn.shopify.com/s/files/1/0390/2985/files/HP-Mobile_goodness-combos_Tiles_800-500_800x.jpg?v=1638940704);
 }
 
 
@@ -207,7 +210,8 @@ main{
         margin-left: 10px;
     }
     #main-coro{
-        grid-template-rows: 200px 200px 200px;
+        /* grid-template-rows: 200px 200px 200px; */
+        grid-auto-rows: auto;
     }
 }
 @media screen and (min-width:834px) {
@@ -223,7 +227,8 @@ main{
 @media screen and (max-width:991px) {
     #main-coro{
         width: 90%;
-        grid-template-rows: 350px 350px 350px;
+        /* grid-template-rows: 350px 350px 350px; */
+        grid-auto-rows: auto;
     grid-template-areas: "a a a b b b" "c c c d d d" "e e e e e e";
     }
     
@@ -274,4 +279,16 @@ font-size: 15px;
     font-size: 18px;
     color: #5e0c8c;
     font-family: 'serifabold';
+}
+
+/* other slider */
+.w3-center{text-align:center!important}
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+.w3-display-container{position:relative}
+.w3-display-container:hover .w3-display-hover{display:block}
+.w3-display-container:hover span.w3-display-hover{display:inline-block}
+.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.mySlides{
+    width: 80%;
 }
