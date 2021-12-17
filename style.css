@@ -13,6 +13,12 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'candy_chicksregular';
+    src: url('./font/Candy_Chicks.ttf');
+    
+    font-display: swap;
+}
 body{
     font-family: 'Segoe Pro';
     margin: 0px;
@@ -25,6 +31,9 @@ body{
 }
 header{
     width: 100%;
+    top: 0;
+    background: white;
+    position: sticky;
 }
 .header-logo{
     display: flex;
@@ -33,14 +42,16 @@ header{
 }
 nav{
     display: flex;
+    height: 90px;
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    z-index: 1;
 }
 #left-nav>h1>a>img{
     max-height: 70px;
 }
 #left-nav>h1>a{
-    display: block;
+    display: inline-block;
     border-bottom: solid #5e0c8c 5px;
     border-radius: 5px; 
     margin-left: 20px;
@@ -117,8 +128,6 @@ nav{
     max-width: none;
 }
 /* slider main block */
-main{
-}
 .round{
     background-color: #5e0c8c;
     height: 45px;
@@ -161,7 +170,8 @@ main{
 }
 .card:hover{
     transform: scale(1.02);
-    filter:saturate(150%)
+    filter:saturate(150%);
+    z-index: -1;
 }
 .card>img{
     width: 100%;
@@ -195,7 +205,10 @@ main{
     grid-area: e;
 }
 
-
+video{
+    border-radius: 11px;
+    height: 400px;
+}
 
 
 
@@ -228,7 +241,7 @@ main{
         top: 55px;  
     }
     nav{
-        height: 70px;
+        height: 65px;
     }
 }
 @media screen and (min-width:834px) {
@@ -301,4 +314,19 @@ font-size: 15px;
 /* other slider */
     .mySlides{
         width: 80%;
+    }
+    .cardi{
+        width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5c0f8b;
+    font-family: "candy_chicksregular";
+    }
+    .cardi>h1{
+        font-weight: 400;
+    font-size: 50px;
     }
