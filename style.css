@@ -370,3 +370,45 @@ font-size: 15px;
         text-decoration: none;
         color: black;
     }
+    #menuc{
+        position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 260px;
+    height: 100%;
+    background: aliceblue;
+    display: none;
+    }
+    #menuc>div{
+        display: flex;
+    height: 40px;
+    border-bottom: solid #9218d7 1px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    background: white;
+    }
+    #menuc>div>a{
+        text-decoration: none;
+    }
+    #menuc>div>button{
+        background: none;
+        border: solid #a300ff 2px;
+        color: #9b0ceb;
+        border-radius: 5px;
+        height: 30px;
+        width: 30px;
+    }
+    #menulist{
+        list-style-type: none;
+        padding-left: 20px;
+        font-family: serifabold;
+    font-size: 23px;
+    color: #a300ff!important;
+    text-transform: lowercase;
+    font-display: swap;
+    }
+    #menulist>li{
+        margin-top:10px;
+        cursor: pointer;
+    }

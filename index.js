@@ -2,6 +2,7 @@ window.addEventListener('resize', reportWindowSize);
 var cart = JSON.parse(localStorage.getItem("cartItems")) || [];
 document.querySelector("#cart").innerHTML=cart.length;
 var comment = document.querySelectorAll(".comment");
+var flage=true;
 
 
 
@@ -203,5 +204,16 @@ function showComment(){
     comment[i].style.display="block";
     else
     comment[i].style.display="none";
+  }
+}
+function menuT(){
+  console.log(flage)
+  if(flage)
+  {
+    document.querySelector("#menuc").style.display="block";
+    flage=false;
+  }else{
+    document.querySelector("#menuc").style.display="none";
+    flage=true;
   }
 }
