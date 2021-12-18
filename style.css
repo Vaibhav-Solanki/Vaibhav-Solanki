@@ -371,7 +371,7 @@ font-size: 15px;
         color: black;
     }
     #menuc{
-        position: absolute;
+        position: fixed;
     top: 0px;
     left: 0px;
     width: 260px;
