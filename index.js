@@ -1,6 +1,7 @@
 window.addEventListener('resize', reportWindowSize);
 var cart = JSON.parse(localStorage.getItem("cartItems")) || [];
 document.querySelector("#cart").innerHTML=cart.length;
+var comment = document.querySelectorAll(".comment");
 
 
 
@@ -150,6 +151,7 @@ function reportWindowSize(){
   showData(bestSeller,prodData);
   showData(whatsnew,prodData);
   vidMap(videoData);
+  showComment();
 if(screen.width>767)
 slide.style.backgroundImage=img_slide_bg[i];
 else
@@ -191,4 +193,15 @@ function vidMap(vData){
     });  
     vidCon.append(video);
   });
+}
+showComment();
+
+function showComment(){
+  var size=(screen.width/350);
+  for(var i =0;i<3;i++){
+    if(i<size)
+    comment[i].style.display="block";
+    else
+    comment[i].style.display="none";
+  }
 }

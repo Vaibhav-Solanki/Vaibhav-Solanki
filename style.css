@@ -330,3 +330,43 @@ font-size: 15px;
         font-weight: 400;
     font-size: 50px;
     }
+    .comment>div{
+        width: 80%;
+    background: #ebe0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    }
+    .comment>img{
+        width: 160px;
+    }
+    .comment{
+        margin-bottom: 25px;
+    }
+    #lowerFooter{
+        background: #d9c4e3;
+    text-align: center;
+    padding: 1px;
+    }
+    #lowerFooter>h2{
+        font-weight: 100;
+    }
+    #upperFooter{
+        background:#fff7ec;
+        display: flex;
+    }
+    #leftFooter{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+    }
+    ul{
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    li>a{
+        text-decoration: none;
+        color: black;
+    }
