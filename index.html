@@ -180,6 +180,20 @@
           Privacy policy Terms of Service</h2>
       </div>
     </footer>
+    <script>
+      var flage=true;
+      function menuT(){
+  console.log(flage)
+  if(flage)
+  {
+    document.querySelector("#menuc").style.display="block";
+    flage=false;
+  }else{
+    document.querySelector("#menuc").style.display="none";
+    flage=true;
+  }
+}
+    </script>
     <script src="index.js"></script>
 </body>
 </html>
