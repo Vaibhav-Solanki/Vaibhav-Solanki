@@ -1,0 +1,21 @@
+{
+  "name": "vaibhav-solanki.com",
+  "version": "1.0.0",
+  "description": "it's my personal portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaibhav-Solanki/Vaibhav-Solanki.com.git"
+  },
+  "keywords": [],
+  "author": "Vaibhav Solanki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vaibhav-Solanki/Vaibhav-Solanki.com/issues"
+  },
+  "homepage": "https://github.com/Vaibhav-Solanki/Vaibhav-Solanki.com#readme"
+}
