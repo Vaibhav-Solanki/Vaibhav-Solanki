@@ -1,21 +1,23 @@
 {
-  "name": "vaibhav-solanki.com",
+  "name": "vaibhav-solanki",
   "version": "1.0.0",
   "description": "it's my personal portfolio",
-  "main": "app.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vaibhav-Solanki/Vaibhav-Solanki.com.git"
+    "url": "git+https://github.com/Vaibhav-Solanki/Vaibhav-Solanki.git"
   },
-  "keywords": [],
-  "author": "Vaibhav Solanki",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Vaibhav-Solanki/Vaibhav-Solanki.com/issues"
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "homepage": "https://github.com/Vaibhav-Solanki/Vaibhav-Solanki.com#readme"
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "vite": "^2.8.0"
+  }
 }
