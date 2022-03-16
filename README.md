@@ -43,7 +43,7 @@
 </p>
 
 ## ❤ Views and Followers
-<a href="https://github.com/Meghna-DAS/github-profile-views-counter">
-    <img src="https://komarev.com/ghpvc/?username=chiranjeev-thapliyal">
+<a href="https://github.com/Vaibhav-Solanki/github-profile-views-counter">
+    <img src="https://komarev.com/ghpvc/?username=Vaibhav-Solanki">
 </a>
-<a href="https://github.com/chiranjeev-thapliyal?tab=followers"><img src="https://img.shields.io/github/followers/chiranjeev-thapliyal?label=Followers&style=social" alt="GitHub Badge"></a>
+<a href="https://github.com/Vaibhav-Solanki?tab=followers"><img src="https://img.shields.io/github/followers/Vaibhav-Solanki?label=Followers&style=social" alt="GitHub Badge"></a>
