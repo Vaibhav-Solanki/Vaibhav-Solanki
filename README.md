@@ -41,7 +41,3 @@
 
 <br/>
 <br/>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=vaibhav-solanki&show_icons=true&locale=en&layout=compact" alt="vaibhav-solanki" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=vaibhav-solanki&show_icons=true&locale=en" alt="vaibhav-solanki" /></p>
