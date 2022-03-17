@@ -1,0 +1,19 @@
+/* blur1 */
+.blr {
+  box-shadow: 0 0 5px 0;
+  background: inherit;
+  backdrop-filter: blur(10px);
+}
+/* blr 2 */
+.blr2 {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background: inherit;
+}
+
+.blr2 {
+  z-index: -1;
+  background: inherit;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+  filter: blur(10px);
+}
