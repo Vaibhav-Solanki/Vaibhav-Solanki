@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Vaibhav Solanki</h1>
 <h3 align="center">A passionate Full stack web devloper</h3>
+<h3 align="left">An aspiring full stack developer with a specialization in 💻 MERN stack. Keenly interested in problem-solving and making user-centric products, self-motivated and curious. Looking forward to honing my skills in a challenging work environment.</h3>
 
 - 🌱 I’m currently learning **MERN stack at masai school**
 
