@@ -10,7 +10,7 @@
 
 - 💬 Ask me about **react , nodeJS ,Express.js ,mongoDB**
 
-- 📫 How to reach me **VaibhavSolankie@gmail.com**
+- 📫 How to reach me **vaibhav_solanki@icloud.com**
 
 - 📄 Know about my experiences [Resume](https://drive.google.com/file/d/1-ubvRj-uO-5hVvaoHnOwFr1vpD7bPphi/view?usp=sharing)
 
